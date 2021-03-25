@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace FlixOne.InventoryManagement
 {
     public class QuitCommand : InventoryCommand
     {
-        public QuitCommand () : base(false) { }
+        public QuitCommand () : base(true) { }
 
         internal override bool InternalCommand()
         {
