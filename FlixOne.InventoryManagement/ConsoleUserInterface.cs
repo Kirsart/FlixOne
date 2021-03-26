@@ -5,7 +5,7 @@ namespace FlixOne.InventoryManagement
     /// <summary>
     /// Взаимодействие пользователя с консолью
     /// </summary>
-    public class ConsoleUserInterface
+    public class ConsoleUserInterface : IUserInterface
     {
         /// <summary>
         /// Чтнение сообщения с консоли

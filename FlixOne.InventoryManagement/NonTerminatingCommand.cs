@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace FlixOne.InventoryManagement
 {
+    /// <summary>
+    /// Интерфейс команд не закрывающие программу
+    /// </summary>
     internal abstract class NonTerminatingCommand : InventoryCommand
     {
         protected NonTerminatingCommand() : base(commandIsTerminating: false)

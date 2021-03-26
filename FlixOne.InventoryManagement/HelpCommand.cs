@@ -2,7 +2,8 @@
 
 namespace FlixOne.InventoryManagement
 {
-    public class HelpCommand : NonTerminatingCommand
+
+    internal class HelpCommand : NonTerminatingCommand
     {
 
         internal override bool InternalCommand()
